@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/common.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="condition">
+		名字 : <input type="text" name="name"> <br> <label
+			for="age"> 年龄:</label> <input type="text" name="age" digits id="age">
+		<br> <input type="button" value="搜索" id="searchBtn"> <br>
+		<input type="hidden" name="pageNo" value="0"><input
+			type="hidden" name="pageSize" value="2">
+	</div>
+
+
+	<table class="result">
+		<tr>
+			<th>id</th>
+			<th>name</th>
+			<th>age</th>
+		</tr>
+
+	</table>
+
+	<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="scripts/koala-1.1.0.js"></script>
+	<script type="text/javascript" src="scripts/koala.validate-1.0.0.js"></script>
+	<script type="text/javascript" src="scripts/searchuser.js"></script>
+</body>
+</html>
